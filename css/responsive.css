@@ -5,12 +5,21 @@
     }
 }
 
+
 @media screen and (max-width: 425px) {
 
     .row {
         flex-direction: column;
         align-items: center;
         gap: 70px;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .why-us {
+        margin: 0;
     }
     
     .steps .col {
@@ -29,11 +38,14 @@
         width: 90%;
     }
 
-    .steps {
-        margin: 0;
-    }
+}
 
-    .why-us {
-        margin: 0;
+/* BONUS  */
+@media screen and (max-width: 1160px) {
+
+    .container {
+        width: 100%;
     }
 }
+
+
